@@ -206,8 +206,7 @@ Using the miles function below do the following:
 
 
 function miles(kilo){
-  let amountMiles = .6214 * kilo;
-  return amountMiles;
+  return kilo * .621371
 }
 
 
